@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.up{
+    background-image: url(../images/img-colorlib/image_10.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 350px;
+}
+.up .intoup{
+    background-color: rgba(0, 0, 0, .5);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(230, 232, 238);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}    
+span{
+    color: red;
+}
+.up .intoup h1{
+    padding: 45px 0px 10px 400px;
+    width: 40%;
+    line-height: 35px;
+}
+.up .intoup p{
+    font-size: 20px;
+    width: 40%;
+    padding: 20px 0px 15px 400px;
+}
+.up .intoup button{
+    width: 100px;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+.up .intoup button:hover{
+    background-color: rgb(206, 191, 56);
+}
+.section{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+}
+.section img{
+    width: 250px;
+}
+.section .images{
+    width: 30%;
+    height: 100%;
+}
+.section .images .images1{
+    position: absolute;
+    left: 120px;
+    top: 700px;
+}
+.section .images .images2{
+    position: absolute;
+    top: 520px;
+}
+.section .images .images3{
+    position: absolute;
+    left: 120px;
+}
+.section .sub{
+    width: 68%;
+    height: 100%;
+    font-family:inherit;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.section .sub .packedge1{
+    display: flex;
+    padding-top: 15px;
+}
+.section .sub img{
+    width: 35px;
+    padding-right: 10px;
+}
+.section .sub .packedge2{
+    display: flex;
+    padding-top: 15px;
+}
+.service{
+  width: 100%;
+  height: 450px;
+  background-image: url(../images/img-colorlib/bg_1.jpg);
+  background-size: 100% 100%;
+}
+.service .serv1{
+    text-align: center;
+    padding: 20px 0px 0px 300px;
+    font-family:serif;
+    font-size: 18px;
+    width: 50%;
+    color: black
+}
+.service .serv2{
+    display: flex;
+    text-align: center;
+    padding: 70px 40px 40px 5px;
+}  
+.service .serv2 img{
+    width: 50px;
+}
+.service .serv2 p{
+    padding: 0px 25px 0px 25px;
+}
+.articles{
+    width: 100%;
+    height: 550px;
+}
+.articles .subarticl1{
+    display: flex;
+    width: 85%;
+}
+.articles .subarticl1 .card1{
+    width: 50%;
+    margin: 10px 100px 0px 350px;
+
+}
+.articles .subarticl1 .card2{
+    width: 50%;
+}
+.articles .subarticl2{
+    display: flex;
+    width: 85%;
+}
+.articles .subarticl2 .card3{
+    width: 50%;
+    margin: 10px 100px 0px 350px;
+}
+.articles .subarticl2 .card4{
+    width: 50%;
+}   
+.articles img{
+    width: 170px;
+    height: 170px;
+}
+.product{
+    width: 80%;
+    height: 350px;
+    display: flex;
+   margin: 30px auto;
+   justify-content: center;
+}
+.producth1{
+    margin:15px 0px 0px 300px
+}
+.product .table1{
+    width: 25%;
+}
+.product .table2{
+    width: 25%;
+}
+.product .table3{
+    width: 25%;
+}
+.product img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+table{
+    height: 150px;
+    width: 180px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #b5afd9;
+}
+footer .footparent img{
+    width: 50px;
+    height: 50px;
+}
+.footparent{
+    display: flex;
+    width: 80%;
+    padding: 20px 0px 0px 250px;
+}
+.footparent .foot1{
+    width: 25%;
+}
+.footchild{
+    display: flex;
+    width: 80%;
+}
+.footchild .call{
+    width: 50%;
+}
+.footchild .call a{
+    display: block;
+    text-decoration: none;
+    padding: 25px 70px 20px 250px;
+}
+.footchild .call input{
+    margin: 5px 0px 0px 250px;
+    padding: 7px;
+    border-radius: 15px;
+}
+.footchild .map{
+    width: 50%;
+}
+footer .footchild img{
+    width: 360px;
+    height: 220px;
+    padding: 20px 0px 0px 250px;
+}
